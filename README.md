@@ -11,7 +11,7 @@ This dataset is used as input for implementing a space-time Bayesian hierarchica
 ## Scripts
 ### R
 - __Library.R__: Install and load all the packages required. Also, it contains all the personal functions created for this implementation. 
-- __Bayesian_model_15knots.R__: Calibrate the BHM for the contemporary SST anomaly data.
-- Get_forecast_2021.R: Generate the ensemble streamflow forecast for the peak monsoon season 2021. Before running this script, the script Par_bayesian_model_gamma_best_mod_kLT.rds must be run for 1 to 5-days lead time. 
+- __Bayesian_model_15knots.R__: Calibrate the BHM for the SST anomaly data during the contemporary period (1854–2014) at the 150 fitting points, then simulate SST anomalies over the 2° grid for both the contemporary period (1854–2014) and the 0–10 ka period.
+- 
 ### STAN
-- bayesian_model_gamma_2step_diff_st_2_best_kdlt.STAN: Contain stan code for the model structure of the best candidate BHMC for each lead time. Where k indicates the lead time.
+- __normal_spatial_composite_multivariate_3_PCs.STAN__: Contains stan code for the BHM implemented.
