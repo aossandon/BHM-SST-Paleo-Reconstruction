@@ -14,4 +14,4 @@ This dataset is used as input for implementing a space-time Bayesian hierarchica
 - __Bayesian_model_15knots.R__: Calibrate the BHM for the SST anomaly data during the contemporary period (1854–2014) at the 150 fitting points, then simulate SST anomalies over the 2° grid for both the contemporary period (1854–2014) and the 0–10 ka period.
 - 
 ### STAN
-- __normal_spatial_composite_multivariate_3_PCs.STAN__: Contains stan code for the BHM implemented.
+- __normal_spatial_composite_multivariate_3_PCs.STAN__: STAN code for the implemented BHM.
