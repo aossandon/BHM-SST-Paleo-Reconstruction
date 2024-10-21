@@ -384,4 +384,4 @@ val_post=rstan::extract(stanfit)##extract the posterior into a list
 list.save(val_post,paste("predictors_",Nk,"_knots_.rds",sep=""))
 
 message('R hat values for the fitting:')
-print(quantile(summary(stanfit)$summary[,10],p=c(0.005,0.25,0.5,0.75,0.995),na.rm=TRUE))
+print(quantile(summary(stanfit)$summary[,10],p=c(0.005,0.25,0.5,0.75,0.99),na.rm=TRUE))
