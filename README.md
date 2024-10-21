@@ -15,3 +15,6 @@ This dataset is used as input for implementing a space-time Bayesian hierarchica
 - 
 ### STAN
 - __normal_spatial_composite_multivariate_3_PCs.STAN__: STAN code for the implemented BHM.
+
+## References
+Ossandón, Á., Rajagopalan, B., Gual, J., Kleiber, W., & Marchitto, T. (2024). _Spatial and Temporal Bayesian Hierarchical Model Over Large Domains with Application to Holocene Sea Surface Temperature Reconstruction in the Equatorial Pacific_. Paleoceanography and Paleoclimatology, Under review.
